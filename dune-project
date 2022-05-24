@@ -4,23 +4,17 @@
 
 (generate_opam_files true)
 
-(source
- (github username/reponame))
+(source (github let-def/autoprinter))
 
-(authors "Author Name")
+(authors "Frédéric Bour")
 
-(maintainers "Maintainer Name")
+(maintainers "Frédéric Bour")
 
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(license MIT)
 
 (package
  (name autoprinter)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
+ (synopsis "A proof-of-concept to auto-install printing functions in the OCaml toplevel")
+ (depends ocaml dune))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
