@@ -19,7 +19,7 @@ This is similar to what utop (https://github.com/ocaml-community/utop/pull/269) 
 
 # Caveats
 Error: Reference to undefined global `Ident'
-Because of toplevel design and particularly the expunge feature (see https://github.com/dbuenzli/rresult/issues/5, https://github.com/ocaml/ocaml/issues/6704), the loading is a bit complicated.
+Because of toplevel design and particularly the expunge feature (see https://github.com/dbuenzli/rresult/issues/5, https://github.com/ocaml/ocaml/issues/6704, current state: https://github.com/ocaml/ocaml/issues/7589), the loading is a bit complicated.
 With ocaml toplevel, it will **work as expected** after printing a scarry message:
 
 ```
