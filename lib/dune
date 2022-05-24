@@ -1,0 +1,5 @@
+(library
+ (name autoprinter)
+ (public_name autoprinter)
+ (modes byte)
+ (libraries compiler-libs.common compiler-libs.bytecomp compiler-libs.toplevel))
