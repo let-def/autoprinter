@@ -1,7 +1,9 @@
 # Autoprinter
 A proof-of-concept to auto-install printer functions in the OCaml toplevel
 
-Load this module in ocaml toplevel or in utop-full to setup a hook that will automatically install printers.
+Install with `opam pin add autoprinter https://github.com/let-def/autoprinter.git`.
+
+Then `#require autoprinter` in the ocaml toplevel or in utop-full to setup a hook that will automatically install printers.
 This is done for any function that has a `[@toplevel_printer]` or `[@ocaml.toplevel_printer]` attribute.
 
 For instance, entering the definition:
